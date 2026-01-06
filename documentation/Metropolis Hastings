@@ -34,7 +34,7 @@ for iteration in range(N):
 
 Computational Characteristics: 
 
-1. Time Complexity: 𝑂(𝑁)
+1. Time Complexity: O(N)
 2. Space Complexity: O(N)
 3. Scalability: Extensible to multidimensional targets
 
