@@ -13,3 +13,14 @@ def random_key():
   letters = list(ALPHABET)
   random.shuffle(letters)
   return dict(zip(ALPHABET,letters))
+
+
+
+
+
+
+
+key = random_key()
+
+key['a'], key['z']
+
