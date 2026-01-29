@@ -39,3 +39,28 @@ def decrypt(ciphertext,key):
 
   return ''.join(inverse_key.get(c, c) for c in ciphertext.lower())
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pt = "this is secret"
+key = random_key()
+
+ct= encrypt(pt,key)
+decrypt(ct, key)
+
+
