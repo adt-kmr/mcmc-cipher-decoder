@@ -64,3 +64,24 @@ ct= encrypt(pt,key)
 decrypt(ct, key)
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+def propose_key():
+
+  new_key = key.copy()
+  a,b= random.sample(ALPHABET,2)
+  new_key[a], new_key[b] = new_key[b], new_key[a]
+  return new_key 
+
+
+
